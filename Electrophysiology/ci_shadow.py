@@ -24,7 +24,7 @@ data = pd.read_excel("data_ltp.xlsx")
 data_reshaped =  pd.melt(data,id_vars=['Time (in mins)',"Group"],
                      var_name ='slice',
                      value_name ='fEPSP')
-#%% Theming
+#%% Theming and fonts
 font = {'family': 'Helvetica',
         'color':  'black',
         'weight': 'normal',
@@ -34,8 +34,16 @@ sns.set_style("ticks")
 
 # Setting custom palette
 colors = ["#756BB1", "#31A354", "#DE2330"]
+# I had a palette in mind and those were in RGB values
+# RGB
+#G1 117 107 177
+#G2 49 163 84
+#G3 222 35 48
+
+# You may use the below to convert them to hex values
 # https://www.rgbtohex.net/ RGb to HEX
 
+# Adding custome colors to palette
 sns.set_palette(sns.color_palette(colors))
 
 # Plotting data
@@ -45,12 +53,15 @@ sns_plot = sns.lineplot(data = data_reshaped,
              hue = "Group",
              ci = 68,
              err_style = "band",
-             hue_order = ["NC", "VSL","VC"])
+             hue_order = ["NC", "VSL","VC"]) # These are three groups
+
+# Setting x and y limits
 plt.ylim(0.5,2.5)
 plt.xlim(0,85)
 
 # Add title
-# plt.title('Electrophysiology Plot', fontdict=font)
+plt.title('Electrophysiology Plot', fontdict=font)
+
 # Set x-axis label
 plt.xlabel('Time (minutes)', fontdict=font)
 # Set y-axis label
