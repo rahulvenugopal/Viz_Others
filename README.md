@@ -11,8 +11,7 @@ Typically this is the way many researchers plot
 Weird graphing softwares add their horrible palettes with meshes
 If there are 4 groups or plus, the entire visualisations gets muddy :weary:
 
-Enter seaborn + matplotlib
-![Kickass](https://github.com/rahulvenugopal/Viz_Others/blob/master/Electrophysiology/mean_CI_skirt.jpeg)
+Enter seaborn + matplotlib. ![Kickass](https://github.com/rahulvenugopal/Viz_Others/blob/master/Electrophysiology/mean_CI_skirt.jpeg)
 
 Code updated [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Electrophysiology/ci_shadow.py)
 
