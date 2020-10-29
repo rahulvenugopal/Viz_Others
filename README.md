@@ -24,10 +24,23 @@ Code updated [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Ele
 This set was just an average, quick and dirty requirement
 
 There were heaps of excel sheets and need of the hour was box+point plots across two groups
+
 Graphs were not visually pleasing :weary:
 But the job was done!
-Code [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Inba/plotemall.py)
 
+![Data peek](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_Point/sample_data.png)
+Data looked like this
 
+![Final plot](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_Point/stroop_order.png)
 
+Code [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_Point/plotemall.py)
 
+> Things I learned from this dataviz
+1. My first box+strip plot
+2. I could bring a smile to the person who had only 1 hour left to do entire graphing
+3. learned how to pick data from multiple columns, generate plot, save and loop
+
+> Yet To Do
+1. Removing one label
+2. Color palette customisation (learned it later)
+3. Learn how to automate creating a large csv from multiple based on some logic
