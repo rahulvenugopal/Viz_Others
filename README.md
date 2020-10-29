@@ -29,6 +29,7 @@ Graphs were not visually pleasing :weary:
 But the job was done!
 
 ![Data peek](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_Point/sample_data.png)
+
 Data looked like this
 
 ![Final plot](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_Point/stroop_order.png)
@@ -44,3 +45,16 @@ Code [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_Point/p
 1. Removing one label
 2. Color palette customisation (learned it later)
 3. Learn how to automate creating a large csv from multiple based on some logic
+---
+## Batchmode Excel to PDF converter
+There were ~100s of excel files which had to be converted to PDF
+
+This was more of a challenge than utility hack
+> Things I learned
+1. Came across this opensource and free utility called [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html)
+2. File converting was fun :happy:
+> To Do
+1. Styling of dataframe for a highlighted and aesthetic html
+2. Similar converters for .doc and .docx files
+---
+## Mean + CI skirt for 12 groups data acquired throughout the day
