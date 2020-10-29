@@ -15,6 +15,11 @@ Enter seaborn + matplotlib. ![Kickass](https://github.com/rahulvenugopal/Viz_Oth
 
 Code updated [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Electrophysiology/ci_shadow.py)
 
+> Things I learned from this dataviz
+1. Melting dataframes
+2. Color palette customisation
+3. Adding background fills
+
 
 
 
