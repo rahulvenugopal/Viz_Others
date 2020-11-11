@@ -58,8 +58,11 @@ This was more of a challenge than utility hack
 2. Similar converters for .doc and .docx files
 ---
 ## Mean + CI skirt for 12 groups data acquired throughout the day
+![Data peek](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/data.png)
 Data had Groups column with 2 levels, Intervention with 2 levels, Recording time point 2 levels and Phase with 2 levels
 As a combination there were 12 group combinations
 Phase levels (Light and Dark were exclusive)
-So, the idea was to represent Phase levels using color (Hours 0-12 with light color and 12-24 in dark color
+So, the idea was to represent Phase levels using color (Hours 0-12 with light color and 12-24 in dark color)
 
+That leaves 6 groups to plot
+![Scatter plot](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/scatter_plot.jpg)
