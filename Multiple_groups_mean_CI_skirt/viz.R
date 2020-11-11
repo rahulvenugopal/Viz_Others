@@ -25,7 +25,7 @@ ggplot(data, aes(x = Zeitgeber_Time, y = Sleep,
   stat_summary(geom="ribbon", fun.data=mean_cl_normal, 
                fun.args=list(conf.int = 0.68), fill = "lightblue", alpha = 0.3) +
   stat_summary(geom = "line", fun = mean, linetype = "dashed") +
-  stat_summary(geom = "point", fun = mean, color = "red")
+  stat_summary(geom = "point", fun = mean, color = "red") +
 ###############################################################################
 geom_rect(data=NULL,aes(xmin=0.25, xmax=7.25, ymin=-Inf, ymax=Inf),
           fill="lightgreen") +
