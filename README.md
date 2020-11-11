@@ -76,4 +76,18 @@ That leaves 6 groups to plot
 
 ![Scatter plot](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/scatter_plot.jpg)
 
+I will leave out some attempts to capture all groups in a single plot. Far from complete :unamused:
+
+![Two steps away](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/Phase_Four_Groups.jpg)
+
+The color palette is not standing out in background. The CI skirts are swallowed :unamused:
+
+![Aesthetic but one group](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/Simple_Seabron_facet.jpg)
+
+Phase(Light and Dark are captured) but no group info :unamused:
+
+
+
+
+
 
