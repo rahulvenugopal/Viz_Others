@@ -86,8 +86,12 @@ The color palette is not standing out in background. The CI skirts are swallowed
 
 Phase(Light and Dark are captured) but no group info :unamused:
 
+---
 
+Got back to this Viz. Created a gridplot using `patchwork`
 
+Linetypes captures BL vs PE
 
+Linecolor captures four groups - Group+Intervention
 
-
+![All_four](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/all_four.jpg)
