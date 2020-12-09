@@ -95,3 +95,13 @@ Linetypes captures BL vs PE
 Linecolor captures four groups - Group+Intervention
 
 ![All_four](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/all_four.jpg)
+
+---
+
+Got the plot to work after some brainstorming!
+
+Patchwork to rescue to stitch four plots
+
+![Final Four](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/all_four_final.jpg)
+
+Detailed documentation provided in script `plotsleep_fourcol.R`
