@@ -105,3 +105,13 @@ Patchwork to rescue to stitch four plots
 ![Final Four](https://github.com/rahulvenugopal/Viz_Others/blob/master/Multiple_groups_mean_CI_skirt/images/all_four_final.jpg)
 
 Detailed documentation provided in script `plotsleep_fourcol.R`
+
+---
+## Distribution-KDE | Histogram | Point | Box dataviz
+I was inspired by the plot from Anat Arzi's recent nature paper
+![Inspire](https://pbs.twimg.com/media/EWyhI7qXYAEaAra.jpg)
+
+- We had four groups
+- Reordered the x-axis sequence
+- Custom color palette
+- New tricks from Cederic' Scherer's [talk](https://z3tt.github.io/OutlierConf2021/)
