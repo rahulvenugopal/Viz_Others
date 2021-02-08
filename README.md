@@ -109,9 +109,13 @@ Detailed documentation provided in script `plotsleep_fourcol.R`
 ---
 ## Distribution-KDE | Histogram | Point | Box dataviz
 I was inspired by the plot from Anat Arzi's recent nature paper
+
 ![Inspire](https://pbs.twimg.com/media/EWyhI7qXYAEaAra.jpg)
 
 - We had four groups
 - Reordered the x-axis sequence
 - Custom color palette
-- New tricks from Cederic' Scherer's [talk](https://z3tt.github.io/OutlierConf2021/)
+- New tricks from Cederic Scherer's [talk](https://z3tt.github.io/OutlierConf2021/)
+- ggtext based styling
+
+![Final](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_point_violin_histo/Perceived_stress.jpeg)
