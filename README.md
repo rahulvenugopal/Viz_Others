@@ -118,4 +118,6 @@ I was inspired by the plot from Anat Arzi's recent nature paper
 - New tricks from Cederic Scherer's [talk](https://z3tt.github.io/OutlierConf2021/)
 - ggtext based styling
 
+Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_point_violin_histo/data_vert.R)
+
 ![Final](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_point_violin_histo/Perceived_stress.jpeg)
