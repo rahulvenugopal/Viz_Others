@@ -121,3 +121,26 @@ I was inspired by the plot from Anat Arzi's recent nature paper
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_point_violin_histo/data_vert.R)
 
 ![Final](https://github.com/rahulvenugopal/Viz_Others/blob/master/Box_point_violin_histo/Perceived_stress.jpeg)
+
+---
+## Survey barplot with count label
+![Barplot](https://github.com/rahulvenugopal/Viz_Others/blob/master/Survey/country_part.jpg)
+- Count of participants from various countries
+
+Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Survey/dream_survey.R)
+
+---
+## Finding missing values | KDE | Robust correlations
+![Missing value 1](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/MissingValues.png)
+
+![Missing value 2](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/mising_counts_percentages.png)
+
+![Summary](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/describe_summary.png)
+
+## Robust correlations
+![Robust Cor](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/correlation_plot_new.jpeg)
+
+## KDE plots
+![KDE](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/KDE.jpeg)
+
+Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/missing_cor_KDE_demo.R)
