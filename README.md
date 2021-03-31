@@ -144,3 +144,8 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/Survey/d
 ![KDE](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/KDE.jpeg)
 
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_correlation_KDE/missing_cor_KDE_demo.R)
+
+---
+## One way repeated measure ANOVA | Viz | Stats onto figure | Color palette
+![One way](https://github.com/rahulvenugopal/Viz_Others/blob/master/one_way_rep_measure_ANOVA/OneWayRepMeasureANOVA.jpeg)
+Code is [here] (https://github.com/rahulvenugopal/Viz_Others/blob/master/one_way_rep_measure_ANOVA/one_way_rm_anova.R)
