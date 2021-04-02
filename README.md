@@ -149,3 +149,10 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/missing_
 ## One way repeated measure ANOVA | Viz | Stats onto figure | Color palette
 ![One way](https://github.com/rahulvenugopal/Viz_Others/blob/master/one_way_rep_measure_ANOVA/OneWayRepMeasureANOVA.jpeg)
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/one_way_rep_measure_ANOVA/one_way_rm_anova.R)
+
+---
+## Adding label as text where lineplot ends
+- Adding geom_line from one dataset
+- adding geom_point from another dataset
+![Labels](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_label_multiplot/ggtext_plot_single.jpeg)
+Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_label_multiplot/label_y_axis_ggrepel.R)
