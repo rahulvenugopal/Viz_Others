@@ -1,0 +1,16 @@
+Product,Month,Tickets,Resolved
+US,Jan,11,0
+US,Feb,11,1
+US,Mar,11,9
+Japan,Jan,2,1
+Japan,Feb,2,0
+Japan,Mar,2,0
+Australia,Jan,17,0
+Australia,Feb,16,1
+Australia,Mar,15,1
+India,Jan,19,1
+India,Feb,15,4
+India,Mar,10,5
+France,Jan,6,6
+France,Feb,6,0
+France,Mar,6,0
