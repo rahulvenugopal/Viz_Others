@@ -153,6 +153,6 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/one_way_
 ---
 ## Adding label as text where lineplot ends
 - Adding geom_line from one dataset
-- adding geom_point from another dataset
+- Adding geom_point from another dataset
 ![Labels](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_label_multiplot/ggtext_plot_single.jpeg)
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_label_multiplot/label_y_axis_ggrepel.R)
