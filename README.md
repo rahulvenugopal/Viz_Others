@@ -156,3 +156,12 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/one_way_
 - Adding geom_point from another dataset
 ![Labels](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_label_multiplot/ggtext_plot_single.jpeg)
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_label_multiplot/label_y_axis_ggrepel.R)
+
+---
+## Boxplot and dotplot for paired datasets
+- Connection lines colored based on slope
+- Annotations using greek letters and mean
+- Sample sizes per group added above x-axis
+- Custom coloring and styling
+![Labelled line](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_labelled_line/labelled_line.jpeg)
+Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_labelled_line/paired_line.R)
