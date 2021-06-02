@@ -165,3 +165,9 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/y_axis_l
 - Custom coloring and styling
 ![Labelled line](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_labelled_line/labelled_line.jpeg)
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_labelled_line/paired_line.R)
+
+---
+## Boxplot and dotplot with colored paired slope lines
+- A better version from above v1
+![Colored labels](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_lines_v2/paired_plot.jpeg)
+Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_lines_v2/perceived_stress.R)
