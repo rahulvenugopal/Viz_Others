@@ -171,3 +171,8 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_l
 - A better version from above v1
 ![Colored labels](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_lines_v2/paired_plot.jpeg)
 Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_lines_v2/perceived_stress.R)
+### Improvements
+- Keep the y axis title
+- Keep the y-axis scale same for both graphs on left and right
+- Noticed one bug which takes the first colour by default when all lines are having only one type of slope (TRUE or FALSE)
+- As a quick fix keep the first color which represents all slopes
