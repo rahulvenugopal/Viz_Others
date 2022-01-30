@@ -176,3 +176,10 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_l
 - Keep the y-axis scale same for both graphs on left and right
 - Noticed one bug which takes the first colour by default when all lines are having only one type of slope (TRUE or FALSE)
 - As a quick fix keep the first color which represents all slopes
+
+---
+## Model comparisons of regression models and viz
+![Comparison chart](https://raw.githubusercontent.com/rahulvenugopal/Viz_Others/master/model_comparisons/model_comaprisons.png)
+- compare multiple models and how each predictor performs
+![Radar plot](https://raw.githubusercontent.com/rahulvenugopal/Viz_Others/master/model_comparisons/model_comaprisons_radar.png)
+- see R squared adjusted, BIC etc for comapring models
