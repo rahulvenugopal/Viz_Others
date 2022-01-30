@@ -3,6 +3,7 @@
 # A thicker line connects mean values
 # Mean value, sample size are annotated
 # Author @ Rahul Venugopal on 08.04.2021
+# Added scale_y_continuous to keep y-axis the same for both plots
 
 # Loading libraries
 library(tidyverse)
@@ -10,6 +11,7 @@ library(magrittr)
 library(EnvStats)
 library(ggtext)
 library(patchwork)
+library(ggthemes)
 
 # Load data
 my_data <- read_csv("PSS_CG.csv")
@@ -28,7 +30,9 @@ mean_data <- my_data %>% group_by(Condition) %>%
 
 # Visualisation
 control_group <- ggplot(my_data,
-       aes(x = Condition, y = Perceived_Stress_Scale)) + # Setup x and y axis
+                        aes(x = Condition, y = Perceived_Stress_Scale)) + # Setup x and y axis
+  
+  scale_y_continuous(limits = c(12.5, 25), breaks = seq(12.5, 25, by = 2.5)) +
   
   geom_boxplot(width = 0.25) + # Draw default boxplot first
   
@@ -36,14 +40,14 @@ control_group <- ggplot(my_data,
   
   geom_line(aes(group = Group_CG, col = slope), alpha = 0.8, linetype = 1) + 
   # Connection lines
-
+  
   # Drawing two dots which are group means and a connection line  
   stat_summary(fun.y=mean, color = "#880000", geom="line",linetype = 1, aes(group=1), size = 2, alpha = 0.5) + 
   stat_summary(fun.y=mean, color = "#880000", geom="point", size = 2, alpha = 1, aes(group=1)) + 
   
   # Control dot colors and slope colors  
   # Group 1, Group 2 - dots and lines in that order
-  scale_colour_manual(values = c("#407E93","#CD6F3B")) + 
+  scale_colour_manual(values = c("#A63F40","#1B6BB7")) + 
   
   # Add n number above x axis
   stat_n_text(size= 4,
@@ -51,14 +55,15 @@ control_group <- ggplot(my_data,
               text.box = TRUE) + 
   
   # Labels
-  labs(x = "Pre and Post Conditions", y = "Perceived Stress Scores") + 
+  labs(x = "Pre and Post Conditions", y = "Perceived_Stress_Scales") + 
   
   # Theming
   theme_wsj() + 
   
-  theme(plot.title = ggtext::element_markdown(size=12)) + 
+  theme(plot.title = ggtext::element_markdown(size=18)) + 
   
-  labs(title = 'Perceived stress <i style="color:#CD6F3B;">increase</i> or <i style="color:#407E93;">decrease</i> in control group') + 
+  labs(title = 'Perceived Stress <i style="color:#CD6F3B;">increase</i> or <i style="color:#407E93;">decrease</i> 
+       <br> in control group') + 
   
   # Annotate means. Control the location using x and y
   annotate("text", label = paste("Mean == ",mean_data[1]),
@@ -92,7 +97,9 @@ mean_data <- my_data %>% group_by(Condition) %>%
 
 # Visualisation
 study_group <- ggplot(my_data,
-                        aes(x = Condition, y = Perceived_Stress_Scale)) + # Setup x and y axis
+                      aes(x = Condition, y = Perceived_Stress_Scale)) + # Setup x and y axis
+  
+  scale_y_continuous(limits = c(12.5, 25), breaks = seq(12.5, 25, by = 2.5)) +
   
   geom_boxplot(width = 0.25) + # Draw default boxplot first
   
@@ -107,7 +114,7 @@ study_group <- ggplot(my_data,
   
   # Control dot colors and slope colors  
   # Group 1, Group 2 - dots and lines in that order
-  scale_colour_manual(values = c("#407E93","#CD6F3B")) + 
+  scale_colour_manual(values = c("#A63F40","#1B6BB7")) + 
   
   # Add n number above x axis
   stat_n_text(size= 4,
@@ -115,14 +122,15 @@ study_group <- ggplot(my_data,
               text.box = TRUE) + 
   
   # Labels
-  labs(x = "Pre and Post Conditions", y = "Perceived Stress Scores") + 
+  labs(x = "Pre and Post Conditions", y = "Perceived_Stress_Scaled") + 
   
   # Theming
   theme_wsj() + 
   
-  theme(plot.title = ggtext::element_markdown(size=12)) + 
+  theme(plot.title = ggtext::element_markdown(size=18)) + 
   
-  labs(title = 'Perceived stress <i style="color:#CD6F3B;">increase</i> or <i style="color:#407E93;">decrease</i> in study group') + 
+  labs(title = 'Perceived Stress <i style="color:#CD6F3B;">increase</i> or <i style="color:#407E93;">decrease</i> 
+       <br> in study group') + 
   
   # Annotate means. Control the location using x and y
   annotate("text", label = paste("Mean == ",mean_data[1]),
@@ -138,4 +146,4 @@ study_group <- ggplot(my_data,
   theme(plot.margin = margin(t = 25, r = 25, b = 10, l = 25))
 
 control_group + study_group
-ggsave("paired_plot.jpeg", dpi = 300, width = 12, height = 6)
+ggsave("NEW_Perceived_Stress_Scale.jpeg", dpi = 300, width = 12, height = 6)
