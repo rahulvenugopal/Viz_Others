@@ -183,8 +183,3 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_l
 - compare multiple models and how each predictor performs
 ![Radar plot](https://raw.githubusercontent.com/rahulvenugopal/Viz_Others/master/model_comparisons/model_comaprisons_radar.png)
 - see R squared adjusted, BIC etc for comapring models
-
----
-## Empirical cumulative distribution plots
-![](https://github.com/rahulvenugopal/Viz_Others/blob/master/ECDF/ECDF.jpg)
-- Neat viz showing values of 0.5 ECDF
