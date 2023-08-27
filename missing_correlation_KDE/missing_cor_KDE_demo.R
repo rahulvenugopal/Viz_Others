@@ -19,6 +19,9 @@ library(ggtext)
 library(see)
 library(naniar)
 
+library(palmerpenguins)
+library(gt)
+
 # Load data
 data <- read.csv("sample_data.csv")
 
@@ -133,3 +136,7 @@ ggplot(data, aes(x=bill_length_mm, y=bill_depth_mm)) +
   )
 
 ggsave("correlation_plot_new.jpeg",width = 6, height = 6, dpi = 300)
+
+# Get a cool summary table ------------------------------------------------
+
+gt_plt_summary(penguins)
