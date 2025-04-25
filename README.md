@@ -190,3 +190,10 @@ Code is [here](https://github.com/rahulvenugopal/Viz_Others/blob/master/paired_l
 ## Empirical cumulative distribution plots
 ![](https://github.com/rahulvenugopal/Viz_Others/blob/master/ECDF/ECDF.jpg)
 - Neat viz showing values of 0.5 ECDF
+
+## To Add
+![](https://github.com/rahulvenugopal/Viz_Others/blob/master/New%20Viz%20to%20be%20added/HRV_SD2.jpg)
+
+![](https://github.com/rahulvenugopal/Viz_Others/blob/master/New%20Viz%20to%20be%20added/Markers.png)
+
+![](https://github.com/rahulvenugopal/Viz_Others/blob/master/New%20Viz%20to%20be%20added/NC_HRV-MeanNN.jpg)
